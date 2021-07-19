@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227ED857268C9C6F00C60AAE /* CostSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227ED856268C9C6F00C60AAE /* CostSplitApp.swift */; };
+		227ED859268C9C6F00C60AAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227ED858268C9C6F00C60AAE /* ContentView.swift */; };
+		227ED85B268C9C7000C60AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227ED85A268C9C7000C60AAE /* Assets.xcassets */; };
+		227ED85E268C9C7000C60AAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227ED85D268C9C7000C60AAE /* Preview Assets.xcassets */; };
+		227ED869268C9C7000C60AAE /* CostSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227ED868268C9C7000C60AAE /* CostSplitTests.swift */; };
+		227ED874268C9C7000C60AAE /* CostSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227ED873268C9C7000C60AAE /* CostSplitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227ED865268C9C7000C60AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227ED84B268C9C6F00C60AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227ED852268C9C6F00C60AAE;
+			remoteInfo = CostSplit;
+		};
+		227ED870268C9C7000C60AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227ED84B268C9C6F00C60AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227ED852268C9C6F00C60AAE;
+			remoteInfo = CostSplit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		227ED853268C9C6F00C60AAE /* CostSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CostSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227ED856268C9C6F00C60AAE /* CostSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostSplitApp.swift; sourceTree = "<group>"; };
+		227ED858268C9C6F00C60AAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		227ED85A268C9C7000C60AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		227ED85D268C9C7000C60AAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		227ED85F268C9C7000C60AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227ED864268C9C7000C60AAE /* CostSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227ED868268C9C7000C60AAE /* CostSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostSplitTests.swift; sourceTree = "<group>"; };
+		227ED86A268C9C7000C60AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227ED86F268C9C7000C60AAE /* CostSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227ED873268C9C7000C60AAE /* CostSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostSplitUITests.swift; sourceTree = "<group>"; };
+		227ED875268C9C7000C60AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227ED850268C9C6F00C60AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227ED861268C9C7000C60AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227ED86C268C9C7000C60AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227ED84A268C9C6F00C60AAE = {
+			isa = PBXGroup;
+			children = (
+				227ED855268C9C6F00C60AAE /* CostSplit */,
+				227ED867268C9C7000C60AAE /* CostSplitTests */,
+				227ED872268C9C7000C60AAE /* CostSplitUITests */,
+				227ED854268C9C6F00C60AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227ED854268C9C6F00C60AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227ED853268C9C6F00C60AAE /* CostSplit.app */,
+				227ED864268C9C7000C60AAE /* CostSplitTests.xctest */,
+				227ED86F268C9C7000C60AAE /* CostSplitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227ED855268C9C6F00C60AAE /* CostSplit */ = {
+			isa = PBXGroup;
+			children = (
+				227ED856268C9C6F00C60AAE /* CostSplitApp.swift */,
+				227ED858268C9C6F00C60AAE /* ContentView.swift */,
+				227ED85A268C9C7000C60AAE /* Assets.xcassets */,
+				227ED85F268C9C7000C60AAE /* Info.plist */,
+				227ED85C268C9C7000C60AAE /* Preview Content */,
+			);
+			path = CostSplit;
+			sourceTree = "<group>";
+		};
+		227ED85C268C9C7000C60AAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				227ED85D268C9C7000C60AAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		227ED867268C9C7000C60AAE /* CostSplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				227ED868268C9C7000C60AAE /* CostSplitTests.swift */,
+				227ED86A268C9C7000C60AAE /* Info.plist */,
+			);
+			path = CostSplitTests;
+			sourceTree = "<group>";
+		};
+		227ED872268C9C7000C60AAE /* CostSplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				227ED873268C9C7000C60AAE /* CostSplitUITests.swift */,
+				227ED875268C9C7000C60AAE /* Info.plist */,
+			);
+			path = CostSplitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227ED852268C9C6F00C60AAE /* CostSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227ED878268C9C7000C60AAE /* Build configuration list for PBXNativeTarget "CostSplit" */;
+			buildPhases = (
+				227ED84F268C9C6F00C60AAE /* Sources */,
+				227ED850268C9C6F00C60AAE /* Frameworks */,
+				227ED851268C9C6F00C60AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CostSplit;
+			productName = CostSplit;
+			productReference = 227ED853268C9C6F00C60AAE /* CostSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227ED863268C9C7000C60AAE /* CostSplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227ED87B268C9C7000C60AAE /* Build configuration list for PBXNativeTarget "CostSplitTests" */;
+			buildPhases = (
+				227ED860268C9C7000C60AAE /* Sources */,
+				227ED861268C9C7000C60AAE /* Frameworks */,
+				227ED862268C9C7000C60AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227ED866268C9C7000C60AAE /* PBXTargetDependency */,
+			);
+			name = CostSplitTests;
+			productName = CostSplitTests;
+			productReference = 227ED864268C9C7000C60AAE /* CostSplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		227ED86E268C9C7000C60AAE /* CostSplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227ED87E268C9C7000C60AAE /* Build configuration list for PBXNativeTarget "CostSplitUITests" */;
+			buildPhases = (
+				227ED86B268C9C7000C60AAE /* Sources */,
+				227ED86C268C9C7000C60AAE /* Frameworks */,
+				227ED86D268C9C7000C60AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227ED871268C9C7000C60AAE /* PBXTargetDependency */,
+			);
+			name = CostSplitUITests;
+			productName = CostSplitUITests;
+			productReference = 227ED86F268C9C7000C60AAE /* CostSplitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227ED84B268C9C6F00C60AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					227ED852268C9C6F00C60AAE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					227ED863268C9C7000C60AAE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 227ED852268C9C6F00C60AAE;
+					};
+					227ED86E268C9C7000C60AAE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 227ED852268C9C6F00C60AAE;
+					};
+				};
+			};
+			buildConfigurationList = 227ED84E268C9C6F00C60AAE /* Build configuration list for PBXProject "CostSplit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227ED84A268C9C6F00C60AAE;
+			productRefGroup = 227ED854268C9C6F00C60AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227ED852268C9C6F00C60AAE /* CostSplit */,
+				227ED863268C9C7000C60AAE /* CostSplitTests */,
+				227ED86E268C9C7000C60AAE /* CostSplitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227ED851268C9C6F00C60AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227ED85E268C9C7000C60AAE /* Preview Assets.xcassets in Resources */,
+				227ED85B268C9C7000C60AAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227ED862268C9C7000C60AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227ED86D268C9C7000C60AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227ED84F268C9C6F00C60AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227ED859268C9C6F00C60AAE /* ContentView.swift in Sources */,
+				227ED857268C9C6F00C60AAE /* CostSplitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227ED860268C9C7000C60AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227ED869268C9C7000C60AAE /* CostSplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227ED86B268C9C7000C60AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227ED874268C9C7000C60AAE /* CostSplitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227ED866268C9C7000C60AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227ED852268C9C6F00C60AAE /* CostSplit */;
+			targetProxy = 227ED865268C9C7000C60AAE /* PBXContainerItemProxy */;
+		};
+		227ED871268C9C7000C60AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227ED852268C9C6F00C60AAE /* CostSplit */;
+			targetProxy = 227ED870268C9C7000C60AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		227ED876268C9C7000C60AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		227ED877268C9C7000C60AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227ED879268C9C7000C60AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CostSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = ULRMN2WR2K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CostSplit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phi.CostSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227ED87A268C9C7000C60AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CostSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = ULRMN2WR2K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CostSplit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phi.CostSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		227ED87C268C9C7000C60AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULRMN2WR2K;
+				INFOPLIST_FILE = CostSplitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phi.CostSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostSplit.app/CostSplit";
+			};
+			name = Debug;
+		};
+		227ED87D268C9C7000C60AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULRMN2WR2K;
+				INFOPLIST_FILE = CostSplitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phi.CostSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostSplit.app/CostSplit";
+			};
+			name = Release;
+		};
+		227ED87F268C9C7000C60AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULRMN2WR2K;
+				INFOPLIST_FILE = CostSplitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phi.CostSplitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CostSplit;
+			};
+			name = Debug;
+		};
+		227ED880268C9C7000C60AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULRMN2WR2K;
+				INFOPLIST_FILE = CostSplitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phi.CostSplitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CostSplit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227ED84E268C9C6F00C60AAE /* Build configuration list for PBXProject "CostSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227ED876268C9C7000C60AAE /* Debug */,
+				227ED877268C9C7000C60AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227ED878268C9C7000C60AAE /* Build configuration list for PBXNativeTarget "CostSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227ED879268C9C7000C60AAE /* Debug */,
+				227ED87A268C9C7000C60AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227ED87B268C9C7000C60AAE /* Build configuration list for PBXNativeTarget "CostSplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227ED87C268C9C7000C60AAE /* Debug */,
+				227ED87D268C9C7000C60AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227ED87E268C9C7000C60AAE /* Build configuration list for PBXNativeTarget "CostSplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227ED87F268C9C7000C60AAE /* Debug */,
+				227ED880268C9C7000C60AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227ED84B268C9C6F00C60AAE /* Project object */;
+}
